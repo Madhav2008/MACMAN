@@ -71,7 +71,7 @@ function preload() {
     ghost4I = loadImage("./IMAGES/Ghost/GhostBlue.png");
     fakeBlueGhostI = loadImage("./IMAGES/Ghost/FakeBlueGhost.png");
 
-    lifeI = loadImage("./IMAGES/life.png");
+    lifeI = loadImage("./IMAGES/Life.png");
 
     music = loadSound("./SOUNDS/macman game music.mp3");
 }
