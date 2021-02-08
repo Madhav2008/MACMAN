@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #00ffea;
+    overflow: hidden;
+    font-weight: bold;
+    color: hsl(241, 100%, 50%);
+    font-size: 150px;
+}
+
+canvas {
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+h1 {
+    color: #ff5722;
+    text-align: center;
+}
+
+h2,
+h3 {
+    color: #880e4f;
+    font-size: 25px;
+    text-align: center;
+}
+
+.customInput {
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.customLogo {
+    width: 300px;
+    height: 250px;
+}
+
+.customButton {
+    width: 210px;
+    height: 60px;
+    background-color: #ffe600;
+    border: none;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    padding: 20px 32px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 110px -60px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.volumeButton {
+    width: 100px;
+    height: 100px;
+    background-color: #fea834;
+    padding: 15px;
+    border-radius: 150px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.loginButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
